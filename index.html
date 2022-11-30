@@ -1,0 +1,206 @@
+<title>Test</title>
+<h1 id="h1id">Animations and Javascript Tests/Examples</h1>
+
+<link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+
+<Style>
+body{
+  background: -webkit-gradient(linear, left top, left bottom, from(#808080), to(#cbccc8)) fixed;
+}
+#Javatest{
+  
+  text-align: center;
+    font-family: 'Nunito Sans';
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 30%;
+  background-image: linear-gradient(to top, grey, white);
+}
+#butn{
+      font-family: 'Nunito Sans';
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#cc{
+      font-family: 'Nunito Sans';
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#c{
+      font-family: 'Nunito Sans';
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#sound{
+      font-family: 'Nunito Sans';
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text{
+    font-family: 'Nunito Sans';
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#animation{
+  text-align: center;
+    font-family: 'Nunito Sans';
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 30%;
+  background-image: linear-gradient(to top, grey, white);
+}
+#h1id{
+  font-size: large;
+font-family: 'Nunito Sans';
+}
+#button{
+  font-family: 'Nunito Sans';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8ch;
+  transition: all, 3s;
+}
+#button:hover{
+  width: 14ch
+}
+#button1{
+  font-family: 'Nunito Sans';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6ch;
+  transition: all, 0.1s;
+}
+#button1:hover{
+transform: rotate(36000000000000000000000000000000000000000000000000000000000000deg)
+}
+#button2{
+  font-family: 'Nunito Sans';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5ch;
+  height: 3ch;
+  transition: all, 4.5s;
+}
+#button2:hover{
+  height: 14ch
+}
+#button3{
+  font-family: 'Nunito Sans';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6ch;
+  height: 3ch;
+  transition: all, 3s;
+}
+#button3:hover{
+  transform: skew(40deg, 40deg);
+}
+#button4{
+  font-family: 'Nunito Sans';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6ch;
+  height: 3ch;
+  transition: all, 3s;
+}
+#button4:hover{
+  transform: skew(180deg, 180deg);
+}
+#button5{
+  font-family: 'Nunito Sans';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6ch;
+  height: 3ch;
+  transition: all, 3s;
+}
+#button5:hover{
+  width: 20ch;
+  height: 20ch;
+}
+#button6{
+  font-family: 'Nunito Sans';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8ch;
+  height: 3ch;
+  transition: all, 2s;
+}
+#button6:hover{
+  width: 20ch;
+  height: 20ch;
+  background-image: url("https://cdn.mos.cms.futurecdn.net/4MLyNZ66GSMUp7z49Q8k3K-320-80.jpg");}
+  #button7{
+  font-family: 'Nunito Sans';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6ch;
+  height: 3ch;
+  transition: all, 3s;
+}
+#button7:hover{
+    transform: skew(45deg, -45deg);
+}
+</style>
+<script>
+function example(){
+  //do nothing
+}
+function sound(){
+  var audio = new Audio('mic.mp3');
+audio.play();
+}
+window.onbeforeunload = function(){
+   window.open("https://codepen.io/MattJR10/pen/zYaPWQV?editors=1010")
+}
+window.addEventListener("beforeunload", function(e){
+   window.open("https://codepen.io/MattJR10/pen/zYaPWQV?editors=1010")
+}, false);
+</script>
+
+
+
+<div id="Javatest">
+  <p class="text">JavaScript</p>
+  <button id="butn">Click Counter</button>
+  <button id="cc">Clicks: 0</button>
+  <button id="c" onclick="clicks()">Click Here</button>
+    <button id="sound" onclick="sound">Sound</button>
+  <br>
+</div>
+<br>
+<div id="animation">
+  <p class="text">CSS</p>
+<button id="button" onclick="example()">Width</button>
+<br>
+<button id="button1" onclick="example()">Spin</button>
+</br>
+<button id="button2" onclick="example()">Tall</button>
+</br>
+<button id="button3" onclick="example()">Skew</button>
+</br>
+<button id="button4" onclick="example()">Bye</button>
+</br>
+<button id="button5" onclick="example()">Grow</button>
+</br>
+<button id="button6" onclick="example()">Secret</button>
+</br>
+<button id="button7" onclick="example()">Move</button>
+</div>
